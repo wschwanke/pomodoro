@@ -1,0 +1,10 @@
+@import 'common/variables';
+
+// Import the actual bootstrap SCSS from the node_modules folder
+@import '~bootstrap/scss/bootstrap';
+
+// Import everything else
+@import 'components/all';
+@import 'layout/all';
+@import 'scenes/all';
+@import 'themes/all';
